@@ -15,8 +15,16 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@mdx-js/react": "^2.3.0",
+    "@stackbit/gatsby-plugin-menus": "^0.0.4",
     "gatsby": "^5.13.1",
+    "gatsby-plugin-image": "^3.13.0",
+    "gatsby-plugin-mdx": "^5.13.0",
+    "gatsby-plugin-sharp": "^5.13.0",
+    "gatsby-source-filesystem": "^5.13.0",
+    "graphql": "^16.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-dropdown": "^1.11.0"
   }
 }
