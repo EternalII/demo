@@ -1,49 +1,47 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+Webapp made using Gatsby
 
-## 🚀 Quick start
+## 🚀 Instructions
 
-1.  **Create a Gatsby site.**
+1. **Download the following tools**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- Node.js
+- Git
+- Visual Studio Code
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+2. **Clone the git repository.**
 
-2.  **Start developing.**
+   Clone all the files from this git repository
 
-    Navigate into your new site’s directory and start it up.
+   ```shell
+   git clone https://github.com/EternalII/demo
+   ```
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+3. **Download all dependencies.**
+   Download all the dependencies to ensure the webapp works properly by using the following command:
 
-3.  **Open the code and start customizing!**
+   ```shell
+   npm install
+   ```
 
-    Your site is now running at http://localhost:8000!
+   if this doesn't work, the following dependencies have been used:
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+   ```shell
+   npm install -g gatsby-cli
+   npm install gatsby-plugin-image gatsby-plugin-sharp gatsby-source-filesystem
+   npm install gatsby-plugin-mdx @mdx-js/react
+   npm install react-dropdown  --save
+   npm install graphql --save
+   npm install express express-graphql graphql --save
+   ```
 
-4.  **Learn more**
+4. **Start the website.**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+   Navigate into the site’s directory and start it up.
 
-## 🚀 Quick start (Netlify)
+   ```shell
+   npm run develop
+   ```
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+5. **Browse the site**
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+   The site can be found in the following address: http://localhost:8000!
